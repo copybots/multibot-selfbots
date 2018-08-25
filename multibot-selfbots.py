@@ -286,7 +286,7 @@ async def edit_check(bot):
 
 	await bot.wait_until_ready()
 
-	await asyncio.sleep(2)
+	await asyncio.sleep(5)
 	edit_msg_list = globaldata[bot.unique_id]["edit_msg_list"]
 
 	while not bot.is_closed:
