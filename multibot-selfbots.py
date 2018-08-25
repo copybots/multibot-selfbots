@@ -51,7 +51,7 @@ token_3 = str(os.environ.get("TOKEN_3"))
 commands_server_id_3 = "000000000000000000"
 commands_channel_id_3 = "000000000000000000"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#DSM Selfbot
 selfbot_4 = True
 token_4 = str(os.environ.get("TOKEN_4"))
 commands_server_id_4 = "416173426252972052"
