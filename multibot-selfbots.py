@@ -13,7 +13,7 @@ import os
 active_1 = True
 active_2 = True
 active_3 = False
-active_4 = False
+active_4 = True
 active_5 = False
 active_6 = False
 active_7 = True
@@ -52,10 +52,10 @@ commands_server_id_3 = "000000000000000000"
 commands_channel_id_3 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_4 = False
+selfbot_4 = True
 token_4 = str(os.environ.get("TOKEN_4"))
-commands_server_id_4 = "000000000000000000"
-commands_channel_id_4 = "000000000000000000"
+commands_server_id_4 = "416173426252972052"
+commands_channel_id_4 = "483037696457965570"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_5 = True
@@ -380,7 +380,7 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
 		
 	elif bot.unique_id == "004":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["430997261066174464"], "copy_channel_ids" : ["445140469337423882"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["481587952468623370"]}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
 		
 	elif bot.unique_id == "005":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
