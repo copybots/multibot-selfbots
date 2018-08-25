@@ -14,7 +14,7 @@ active_1 = True
 active_2 = True
 active_3 = False
 active_4 = True
-active_5 = False
+active_5 = True
 active_6 = False
 active_7 = True
 active_8 = False
@@ -57,11 +57,11 @@ token_4 = str(os.environ.get("TOKEN_4"))
 commands_server_id_4 = "416173426252972052"
 commands_channel_id_4 = "483037696457965570"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Restocks Selfbot
 selfbot_5 = True
 token_5 = str(os.environ.get("TOKEN_5"))
-commands_server_id_5 = "000000000000000000"
-commands_channel_id_5 = "000000000000000000"
+commands_server_id_5 = "416173426252972052"
+commands_channel_id_5 = "483041482723295252"
 
 
 
