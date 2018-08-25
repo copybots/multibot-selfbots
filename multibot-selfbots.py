@@ -16,7 +16,7 @@ active_3 = False
 active_4 = False
 active_5 = False
 active_6 = False
-active_7 = False
+active_7 = True
 active_8 = False
 active_9 = False
 active_10 = False
@@ -71,11 +71,11 @@ token_6 = str(os.environ.get("TOKEN_6"))
 commands_server_id_6 = "000000000000000000"
 commands_channel_id_6 = "000000000000000000"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQ Trivia Selfbot
 selfbot_7 = True
 token_7 = str(os.environ.get("TOKEN_7"))
-commands_server_id_7 = "000000000000000000"
-commands_channel_id_7 = "000000000000000000"
+commands_server_id_7 = "416173426252972052"
+commands_channel_id_7 = "478370073430589442"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_8 = True
