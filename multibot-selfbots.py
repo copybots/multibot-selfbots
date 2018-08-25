@@ -15,7 +15,7 @@ active_2 = True
 active_3 = False
 active_4 = True
 active_5 = True
-active_6 = False
+active_6 = True
 active_7 = True
 active_8 = False
 active_9 = False
@@ -65,11 +65,11 @@ commands_channel_id_5 = "483041482723295252"
 
 
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Funko Selfbot
 selfbot_6 = True
 token_6 = str(os.environ.get("TOKEN_6"))
-commands_server_id_6 = "000000000000000000"
-commands_channel_id_6 = "000000000000000000"
+commands_server_id_6 = "416173426252972052"
+commands_channel_id_6 = "483042673138073600"
 
 #HQ Trivia Selfbot
 selfbot_7 = True
