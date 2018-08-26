@@ -12,7 +12,7 @@ import os
 
 active_1 = True
 active_2 = True
-active_3 = False
+active_3 = True
 active_4 = True
 active_5 = True
 active_6 = True
@@ -45,11 +45,11 @@ token_2 = str(os.environ.get("TOKEN_2"))
 commands_server_id_2 = "416173426252972052"
 commands_channel_id_2 = "461504136840740874"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Supreme Selfbot
 selfbot_3 = True
 token_3 = str(os.environ.get("TOKEN_3"))
-commands_server_id_3 = "000000000000000000"
-commands_channel_id_3 = "000000000000000000"
+commands_server_id_3 = "416173426252972052"
+commands_channel_id_3 = "483375885983154186"
 
 #DSM Selfbot
 selfbot_4 = True
