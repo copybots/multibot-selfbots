@@ -77,31 +77,31 @@ token_7 = str(os.environ.get("TOKEN_7"))
 commands_server_id_7 = "416173426252972052"
 commands_channel_id_7 = "478370073430589442"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQ Trivia US
 selfbot_8 = True
 token_8 = str(os.environ.get("TOKEN_8"))
-commands_server_id_8 = "000000000000000000"
-commands_channel_id_8 = "000000000000000000"
+commands_server_id_8 = "416173426252972052"
+commands_channel_id_8 = "484108197410635786"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQEU
 selfbot_9 = True
 token_9 = str(os.environ.get("TOKEN_9"))
-commands_server_id_9 = "000000000000000000"
-commands_channel_id_9 = "000000000000000000"
+commands_server_id_9 = "416173426252972052"
+commands_channel_id_9 = "484108219069759524"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQDE
 selfbot_10 = True
 token_10 = str(os.environ.get("TOKEN_10"))
-commands_server_id_10 = "000000000000000000"
-commands_channel_id_10 = "000000000000000000"
+commands_server_id_10 = "416173426252972052"
+commands_channel_id_10 = "484108233854943262"
 
 
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQAU
 selfbot_11 = True
 token_11 = str(os.environ.get("TOKEN_11"))
-commands_server_id_11 = "000000000000000000"
-commands_channel_id_11 = "000000000000000000"
+commands_server_id_11 = "416173426252972052"
+commands_channel_id_11 = "484108251345190933"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_12 = True
@@ -394,16 +394,16 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["437786295595696131"], "copy_channel_ids": ["442475302619316236", "442475616105791508", "461691021248561163", "468819343229059072"], "post_server_ids": ["456445523960791042"], "post_channel_ids": ["459515052765216768"]}, "memberlist": ["463206389527871509"], "wordlist": ["\ud83d\udcb0 Prize is currently $0.01/person", "\ud83d\udcb0 Prize is currently $0.02/person", "@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4"], "case_sensitive_wordlist": True}
 
 	elif bot.unique_id == "008":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330323493978133", "484111227551744010"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "009":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330347246452737", "484111240432713739"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "010":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330362073055233", "484111255070703627"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "011":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330384290414627",  "484111269893373974"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "012":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
