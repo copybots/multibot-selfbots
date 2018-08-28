@@ -394,16 +394,16 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["437786295595696131"], "copy_channel_ids": ["442475302619316236", "442475616105791508", "461691021248561163", "468819343229059072"], "post_server_ids": ["456445523960791042"], "post_channel_ids": ["459515052765216768"]}, "memberlist": ["463206389527871509"], "wordlist": ["\ud83d\udcb0 Prize is currently $0.01/person", "\ud83d\udcb0 Prize is currently $0.02/person", "@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4"], "case_sensitive_wordlist": True}
 
 	elif bot.unique_id == "008":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330323493978133", "484111227551744010"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["442475302619316236"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138369794965535"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "009":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330347246452737", "484111240432713739"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["442475616105791508"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138383484911627"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "010":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330362073055233", "484111255070703627"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["461691021248561163"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138397930225664"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "011":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330384290414627",  "484111269893373974"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["468819343229059072"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138416276111375"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "012":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
