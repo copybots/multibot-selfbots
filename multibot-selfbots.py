@@ -391,7 +391,7 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["430997261066174464"], "copy_channel_ids" : ["445140488035631104"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["481587994399342602"]}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "007":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["437786295595696131"], "copy_channel_ids": ["442475302619316236", "442475616105791508", "461691021248561163", "468819343229059072"], "post_server_ids": ["456445523960791042"], "post_channel_ids": ["459515052765216768"]}, "memberlist": ["463206389527871509"], "wordlist": ["\ud83d\udcb0 Prize is currently $0.01/person", "\ud83d\udcb0 Prize is currently $0.02/person", "@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4"], "case_sensitive_wordlist": True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["437786295595696131"], "copy_channel_ids": ["442475302619316236", "442475616105791508", "461691021248561163", "468819343229059072"], "post_server_ids": ["456445523960791042"], "post_channel_ids": ["459515052765216768"]}, "memberlist": ["463206389527871509"], "wordlist": ["\ud83d\udcb0 Prize is currently $0.01/person", "\ud83d\udcb0 Prize is currently $0.02/person", "@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "points"], "case_sensitive_wordlist": True}
 
 	elif bot.unique_id == "008":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["442475302619316236"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138369794965535"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
@@ -406,10 +406,10 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["437786295595696131"], "copy_channel_ids" : ["468819343229059072"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["484138416276111375"]}, "memberlist" : ["463206389527871509"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "012":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["477522374951174146"], "copy_channel_ids" : ["477530276289970196", "478275863415357450", "484571706191773717"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["487921813138178048"]}, "memberlist" : ["225795746245378049", "389630457202868224"], "wordlist" : ["BBG"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["477522374951174146"], "copy_channel_ids" : ["477530276289970196", "478275863415357450", "484571706191773717", "488110555660419072"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["487923777301250048"]}, "memberlist" : ["389630457202868224", "225795746245378049"], "wordlist" : ["BBG"], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "013":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["482636645078925312", "250671450640351232"], "copy_channel_ids" : ["486922812402040850", "482636645078925312", "410843954901286922"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["487923809362378753"]}, "memberlist" : ["398921783119708160", "237899576093179904"], "wordlist" : ["BBG"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["477522374951174146", "250671450640351232"], "copy_channel_ids" : ["486922812402040850", "482636645078925312", "410843954901286922"], "post_server_ids" : ["456445523960791042"], "post_channel_ids" : ["487923825338613763"]}, "memberlist" : ["398921783119708160", "237899576093179904", "214072601096617984"], "wordlist" : ["BBG"], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "014":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
