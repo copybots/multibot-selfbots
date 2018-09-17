@@ -1109,7 +1109,7 @@ async def on_message_code(bot, message):
 											await bot.send_message(channel_object, attachment["url"])
 						if message.embeds != []:
 
-							for embed_info in message.embeds:
+							for original_embed_info in message.embeds:
 								new_embed_info = {}
 								
 								if "title" in original_embed_info:
