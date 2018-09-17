@@ -456,6 +456,9 @@ async def on_message_code(bot, message):
 	memberlist = filedata["memberlist"]
 	wordlist = filedata["wordlist"]
 	case_sensitive_wordlist = filedata["case_sensitive_wordlist"]
+	header_text = filedata["header_text"]
+	footer_text = filedata["footer_text"]
+	footer_icon = filedata["footer_icon"]
 
 	edit_msg_list = globaldata[bot.unique_id]["edit_msg_list"]
 	edit_msg_list_length = globaldata[bot.unique_id]["edit_msg_list_length"]
