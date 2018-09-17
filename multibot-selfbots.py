@@ -1120,6 +1120,8 @@ async def on_message_code(bot, message):
 									new_embed_info["description"] = original_embed_info["description"]
 								if "color" in original_embed_info:
 									new_embed_info["color"] = original_embed_info["color"]
+								if "timestamp" in original_embed_info:
+									new_embed_info["timestamp"] = message.timestamp
 								embed=discord.Embed(**new_embed_info)
 									
 								if "thumbnail" in original_embed_info:
