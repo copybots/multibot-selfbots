@@ -447,7 +447,11 @@ async def on_message_code(bot, message):
 
 	global globaldata
 
-	filedata = globaldata[bot.unique_id]["filedata"]
+	try:
+		filedata = globaldata[bot.unique_id]["filedata"]
+	except KeyError as e:
+		await asyncio.sleep(3)
+		filedata = globaldata[bot.unique_id]["filedata"]
 
 	copy_server_ids = filedata["setup_info"]["copy_server_ids"]
 	copy_channel_ids = filedata["setup_info"]["copy_channel_ids"]
