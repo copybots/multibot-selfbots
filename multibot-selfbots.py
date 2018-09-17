@@ -1106,51 +1106,36 @@ async def on_message_code(bot, message):
 						if message.embeds != []:
 
 							for embed_info in message.embeds:
-								if ("title" in embed_info) and ("url" in embed_info) and ("description" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], url=embed_info["url"], description=embed_info["description"], color=embed_info["color"])
-								elif ("title" in embed_info) and ("url" in embed_info) and ("description" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], url=embed_info["url"], description=embed_info["description"])
-								elif ("title" in embed_info) and ("url" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], url=embed_info["url"], color=embed_info["color"])
-								elif ("title" in embed_info) and ("description" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], description=embed_info["description"], color=embed_info["color"])
-								elif ("url" in embed_info) and ("description" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(url=embed_info["url"], description=embed_info["description"], color=embed_info["color"])
-								elif ("title" in embed_info) and ("url" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], url=embed_info["url"])
-								elif ("title" in embed_info) and ("description" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], description=embed_info["description"])
-								elif ("title" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(title=embed_info["title"], color=embed_info["color"])
-								elif ("url" in embed_info) and ("description" in embed_info):
-									embed=discord.Embed(url=embed_info["url"], description=embed_info["description"])
-								elif ("url" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(url=embed_info["url"], color=embed_info["color"])
-								elif ("description" in embed_info) and ("color" in embed_info):
-									embed=discord.Embed(description=embed_info["description"], color=embed_info["color"])
-								elif ("title" in embed_info):
-									embed=discord.Embed(title=embed_info["title"])
-								elif ("url" in embed_info):
-									embed=discord.Embed(url=embed_info["url"])
-								elif ("description" in embed_info):
-									embed=discord.Embed(description=embed_info["description"])
-								elif ("color" in embed_info):
-									embed=discord.Embed(color=embed_info["color"])
-								else:
-									embed=discord.Embed()
+								new_embed_info = {}
+								
+								if "title" in original_embed_info:
+									new_embed_info["title"] = original_embed_info["title"]
+								if "url" in original_embed_info:
+									new_embed_info["url"] = original_embed_info["url"]
+								if "description" in original_embed_info:
+									new_embed_info["description"] = original_embed_info["description"]
+								if "color" in original_embed_info:
+									new_embed_info["color"] = original_embed_info["color"]
+								embed=discord.Embed(**new_embed_info)
+									
+								if "thumbnail" in original_embed_info:
+									embed.set_thumbnail(url=original_embed_info["thumbnail"]["url"])
 
-
-								if "thumbnail" in embed_info:
-									embed.set_thumbnail(url=embed_info["thumbnail"]["url"])
-
-
-								if "fields" in embed_info:
-									for embed_field in embed_info["fields"]:
+								if "fields" in original_embed_info:
+									for embed_field in original_embed_info["fields"]:
 										embed.add_field(name=embed_field["name"], value=embed_field["value"], inline=embed_field["inline"])
-
-
-								if "footer" in embed_info:
-									embed.set_footer(text=embed_info["footer"]["text"])
+								
+								if "footer" in original_embed_info:
+									if footer_text.strip() != "":
+										original_embed_info["footer"]["text"] = footer_text
+									if footer_icon.strip() != "":
+										original_embed_info["footer"]["icon_url"] = footer_icon
+									embed.set_footer(**original_embed_info["footer"])
+									
+								if "author" in original_embed_info:
+									if header_text.strip() != "":
+										original_embed_info["author"]["name"] = header_text
+									embed.set_author(**original_embed_info["author"])
 
 								for post_server_id in post_server_ids:
 									for post_channel_id in post_channel_ids:
@@ -1161,7 +1146,7 @@ async def on_message_code(bot, message):
 												await bot.send_message(channel_object, embed=embed)
 											except Exception as e:
 												print(e)
-												print("EMBED: {0}".format(embed_info))
+												print("EMBED: {0}".format(original_embed_info))
 
 
 
