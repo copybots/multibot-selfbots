@@ -19,16 +19,16 @@ active_6 = True
 active_7 = True
 active_8 = True
 active_9 = True
-active_10 = True
-active_11 = True
+active_10 = False
+active_11 = False
 active_12 = True
 active_13 = True
-active_14 = False
-active_15 = False
-active_16 = False
-active_17 = False
-active_18 = False
-active_19 = False
+active_14 = True
+active_15 = True
+active_16 = True
+active_17 = True
+active_18 = True
+active_19 = True
 active_20 = False
 
 
